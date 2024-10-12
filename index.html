@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="index.html">Servicios</a></li>
+                    <li><a href="index.html">Productos</a></li>
+                    <li><a href="index.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito"  src="img/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen </th>
+                                        <th>Nombre </th>
+                                        <th>Precio </th>
+                                    </tr>
+                                    <div id="total-carrito">
+                                        <h3>Total a pagar: <span id="total-precio">$0.00</span></h3>
+                                    </div>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+                                    <button class="btn-3" id="guardar-comprobante">Guardar Comprobante</button>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">  
+            <span>Bienvenido a nuestra tienda</span>
+            <h1>Todo sobre chicleras eagle</h1>  
+            <p>
+              En este portal podras encontrar todo tipo de chicleras para tu
+            negocio e igualmente las refacciones necesarias para cualquier
+            maquina de la marca eagle.
+            </p>
+        </div>
+        <div class="header-img">
+            <img src="img/fondochiclera.jpg" alt="">
+        </div>
+    </div>
+
+    </header>
+
+
+    <section class="oferts container">
+
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Máquina Chiclera Eagle 
+                    Vending 1+1 Dispensador 
+                    Dulce Grane.
+                </h3>
+                    <a href="https://articulo.mercadolibre.com.mx/MLM-932333513
+                    -maquina-chiclera-eagle-vending-11-dispensador-dulce-granel-_
+                    JM?matt_tool=86678817&matt_word=&matt_source=google&matt_campaign_
+                    id=19652628135&matt_ad_group_id=160322958471&matt_match_type=&matt_
+                    network=g&matt_device=c&matt_creative=686689775929&matt_keyword=&matt_
+                    ad_position=&matt_ad_type=pla&matt_merchant_id=105359805&matt_product_
+                    id=MLM932333513&matt_product_partition_id=2267569127442&matt_target_
+                    id=aud-2040047605833:pla-2267569127442&gad_source=1&gclid=CjwKCAjw9p24BhB_
+                    EiwA8ID5BucZboLvnI4xpUFdFUedV_5z4i09NdtHExD_EfTMtcfoQ5mGXpyvORoCgwgQAvD_BwE">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="img/bag.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Base Cuadruple Para Chiclera 
+                    Expendedora Eagle.</h3>
+                    <a href="https://articulo.mercadolibre.com.mx/MLM-702030670-base-cuadruple-para-
+                    chiclera-expendedora-eagle-o-universal-ach-_JM?matt_tool=28238160&utm_source=googl
+                    e_shopping&utm_medium=organic">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="img/s2.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Chiclera Esfera 
+                    Eagle Vending + Base Ec</h3>
+                    <a href="https://www.rocketvending.com.mx/products/chiclera-esfera-eagle-vending
+                    -base-ec?srsltid=AfmBOoqUt5QwYE3pI_xN4ABqgjnagQM5mZPQu_d7975U8HCfB4ENgQYvfWM">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="img/s3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <main class="products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1" >
+            
+            <div class="box">
+                <img src="img/pr1.png" alt="">
+                <div class="product-txt">
+                 <h3>Disco Para 1 moneda de $5.00</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$315 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="1">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr2.png" alt="">
+                <div class="product-txt">
+                 <h3>Elisyum</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$200 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="2">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr3.png" alt="">
+                <div class="product-txt">
+                 <h3>Monedero para 1 moneda de $10</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$1,999 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="3">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr4.png" alt="">
+                <div class="product-txt">
+                 <h3>Refaccion de llave
+                    original para chapa
+                 </h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$169 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="4">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr5.png" alt="">
+                <div class="product-txt">
+                 <h3>Reductor para maquina
+                 </h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$100 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="5">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr6.png" alt="">
+                <div class="product-txt">
+                 <h3>Estrella 9 picos
+                    para monedero
+                 </h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$100 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="6">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr7.png" alt="">
+                <div class="product-txt">
+                 <h3>Base</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$275 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="7">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr8.png" alt="">
+                <div class="product-txt">
+                 <h3>Acrilico trasparente 1pz</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$200 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="8">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr9.png" alt="">
+                <div class="product-txt">
+                 <h3>Agarradera superior</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$200 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="9">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr10.png" alt="">
+                <div class="product-txt">
+                 <h3>Maquina Vending Chiclera Eagle + 
+                    Base + Futbolito interactiva Ich</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$6649 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="10">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr11.png" alt="">
+                <div class="product-txt">
+                 <h3>Chiclera Vending Dulce O Pelota 
+                    Cobro A Escoger $1 O $2 O $5</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$ 3324 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="11">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/pr12.png" alt="">
+                <div class="product-txt">
+                 <h3>Maqunita Chiclera Espiral 
+                    Pelotas 2 Pulgadas Para $10 Ch10</h3>
+                 <p>calidad premium</p>
+                 <p class="precio">$ 6495 mx</p>
+                 <a href="#" class="agregar-carrito btn-3" data-id="12">
+                    Agregar al carrito
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-2" id="load-more">Cargar Más</div>
+</main>
+
+<section class="testimonial container">
+    <span>Testimoniales</span>
+    <h2>Que opinan nuestros clientes</h2>
+    <div class="testimonial-content">
+        <div class="testimonial-1">
+            <p>He tenido una experiencia fantastica en este portal web, 
+                encontre laas reffacciones de mi maquina que no encontraba
+                en otros sitios web.
+            </p>
+                <img src="img/starts.png" alt="">
+                <h4>Jose Mendoza</h4>
+        </div>
+        <div class="testimonial-1">
+            <p>Gran variedad de maquinas y refacciones.</p>
+                <img src="img/starts.png" alt="">
+                <h4>Giovanni Garcia</h4>
+        </div>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
